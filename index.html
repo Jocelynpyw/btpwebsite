@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----------------------this is the bootstrap cdn link for style ------------------------------------->
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="./style.css">
+<!---------------------this is the de bootstrap javascript cdn lin ------------------------------->
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<!-- --------------------------------------Google fontawesome script--------------------------- -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>    <title>Pass sante</title>
+<!-- -------------------------------------Own Carousel Style start  ---------------------------------------------------------- -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"> -->
+<!-- -------------------------------------Own Carousel Style end  ---------------------------------------------------------- -->
+<!-- ---------------------------style -------------------------- -->
+<link rel="stylesheet" type="text/css" href="./style.css">
+<!-- -------------------------------My JOST POLICY --------------------- -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="./images/logo/logo.png">
+<!-- -------------------------My Raleway Policy -------------------------------- -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Raleway:wght@200&display=swap" rel="stylesheet">
+<!-- -----------------------------JQUERY CDN LINK START ------------------------------ -->
+<!-- this part of code may to set up the counter off the website -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"  ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" ></script>
+<!-- -----------------------------JQUERY CDN LINK END ------------------------------ -->
+</head>
+<body>
+
+    <header id="home">
+        
+        <section class="sidebarContainer" id="sidebarIdContainer">
+            <div class="sidebar" id="sidebarId">
+                <div id="close-sidebar-containe">
+                    <i class="fa-solid fa-xmark" id="close-sidebar"></i>
+
+                </div>
+            <ul class="sidebar-container">
+                <li class="sidebar-container-item"><a href="#home" id="home-nav">Accueil</a></li>
+                <li class="sidebar-container-item"><a href="#about">a propos</a></li>
+                <!-- <li class="sidebar-container-item"><a href="#procedure">prodedure</a></li> -->
+                <li class="sidebar-container-item"><a href="#services">services</a></li>
+                <li class="sidebar-container-item"><a href="#paiement">paiements</a></li>
+                <li class="sidebar-container-item"><a href="#gallery">consequences</a></li>
+                <li class="sidebar-container-item"><a href="#temoignage">Temoignage</a></li>
+                <li class="sidebar-container-item"><a href="#faq">faq</a></li>
+                <li class="sidebar-container-item"><a href="#contact">contact</a></li>
+                <li class="sidebar-container-item-whatsap"><a href="http://Wa.me/+33751039353" target="_blank"><button class="btn-ensemble btn-ensemble-whatsap" id="btn-whatsapp">whatsapp</button></a></li>
+                 <!-- <div class="fa-whatsap-container"><i class="fa-solid fa-bars"></i> -->
+
+             </ul>
+            </div>
+
+        </section>
+        <section class="navbar-top">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-5 envelope"  >
+                        <div style="margin-right:2px; color: black;" data-toggle="tooltip" data-placement="bottom" title="Envoyez Nous un mail"> <a href="mailto:serviceactif93@gmail.com" style="color: black;text-decoration:none; cursor: pointer;"><i class="fa-solid fa-envelope"></i> serviceactif93@gmail.com </a>
+</div>
+                        <div> <i class="fa-solid fa-mobile-screen"></i> :+33751039353
+</div>
+                    </div>
+                    <div class="col-lg-5"></div>
+                    <div class="col-lg-2 navbar-top-icon-container">
+                        <a href="#!"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://t.me/documentetaffairefinancieren" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="http://Wa.me/+33751039353" target="_blank"><i class="fa-brands fa-whatsapp-square"></i></a>
+                        <!-- <a href="#!"><i class="fa-solid fa-signal"></i></a> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+      
+        <section class="navbar">
+            <div class="navbat-left"> <span class="logo-box" id="logo"><img style="width:100px ;height:100px;margin-top:-20px;" src="./images/logo/logo.png" alt=""></span></div>
+            <!-- <div class="navbat-left"> <span class="logo-box" id="logo">LOGO</span></div> -->
+            <div class="navbat-right">
+               <ul class="navbar-container">
+                  <li class="navbar-container-item"><a href="#home" id="home-nav">Accueil</a></li>
+                  <li class="navbar-container-item"><a href="#about">a propos</a></li>
+                  <!-- <li class="navbar-container-item"><a href="#procedure">prodedure</a></li> -->
+                  <li class="navbar-container-item"><a href="#services">services</a></li>
+                  <li class="navbar-container-item"><a href="#paiement">paiements</a></li>
+
+                  <li class="navbar-container-item"><a href="#gallery">consequences</a></li>
+                  <li class="navbar-container-item"><a href="#temoignage">Temoignage</a></li>
+                  <li class="navbar-container-item"><a href="#faq">faq</a></li> 
+                  <li class="navbar-container-item"><a href="#contact">contact</a></li> 
+                  <li class="navbar-container-item-whatsap" tabindex="0" data-toggle="tooltip" title="Contactez nous"  ><a href="http://Wa.me/+33751039353" target="_blank"    ><button class="btn-ensemble btn-ensemble-whatsap" id="btn-whatsapp">whatsapp</button></a></li>
+                   <!-- <div class="fa-whatsap-container"><i class="fa-solid fa-bars"></i> -->
+                   <div class="fa-bar-container" id="fabarid"><i class="fa-solid fa-bars" ></i>
+
+               </ul>
+            </div>
+            </div>
+     </section>
+        <div class="container">
+            <div class="row">
+             
+        <div class="barner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 barner-left">
+                        <div class="first-text">
+                            <h1 class="reveal "><strong >BIENVENUE,</strong>  <br>NOUS SOMMES DISPONIBLE 
+                                24H/24  ET 7J/7</h1>
+                       
+                        <div class="second-text reveal">
+                            <!-- <h2>We are team of talented designers making websites with Bootstrap</h2> -->
+                            <h2>Nous sommes une association de Docteurs dans le monde Vous proposant plusieurs solutions <br> sanitaires et autres.</h2>
+                        </div>
+                       
+                        <div class="first-btn-section  reveal ">
+                            <a href="https://t.me/documentetaffairefinancieren" style="text-decoration: none; color:white;"><button class="btn-ensemble" >Commencer</button></a>
+                            
+                        </div>
+                    </div>
+                    <!-- <div class="col-md-6 barner-rigth"></div> -->
+                </div>
+            </div>
+
+        </div>
+            </div>
+        </div>
+
+       
+    </header>
+    <!-- ///////////////////////////////////////// END OF HEADER SECTION ///////////////////////////////// -->
+
+
+    <!-- //////////////////////////////SECTION DOCUMENT PRESENTATION  START  //////////////////////////////-->
+    
+    <!-- //////////////////////////////SECTION DOCUMENT PRESENTATION  END  //////////////////////////////-->
+    <!-- ////////////////////////////////SECTION PROCESS START ////////////////////////////// -->
+
+
+
+
+    <section id="action" class="reveal">
+        <div class="action-cover">
+              <div class="container">
+
+            <div class="row action-cover-row" >
+                <div class="col-md-9">
+                    <h1 class="action-title">NOUS REJOINDRE</h1>
+                    <p>Nous comme present sur plusieurs plateformes <strong>Telegram , Signal , whatsapp ,Facebook , Youtube ,Vk </strong> , Nous pronnons  la difference dans tout ce que nous faisons
+                        depuis plusieurs annees des personnes nous font confiance et ramenent leurs proches.<strong>ATTENTION IL Y'A BEAUCOUP D"ARNAQUEURS.</strong>
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <button class=" btn-ensemble btn-rejoindre"><a href="https://t.me/documentetaffairefinancieren" style="text-decoration: none; color: white;"> NOUS REJOINDRE</a></button>
+                </div>
+            </div>
+        </div>
+        </div>
+
+      
+
+    </section>
+
+    <section id="stat" class="reveal">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3  stat-item-container">
+                         <div class="stat-item-box-icon-box">
+                            <i class="fa-solid fa-user-doctor"></i>
+
+                    </div>
+                    <div class="stat-item-box-number">+<span class="counter">133</span></div>
+                    <div class="stat-item-box-title">Docteurs membres</div>
+                </div>
+                <div class="col-lg-3 col-md-3  stat-item-container">
+                         <div class="stat-item-box-icon-box">
+                            <i class="fa-solid fa-users"></i>
+
+                    </div>
+                    <div class="stat-item-box-number"> + <span class="counter">200</span> </div>
+                    <div class="stat-item-box-title">Nouveau visiteurs/jours</div>
+                    </div>
+                <div class="col-lg-3 col-md-3  stat-item-container">
+                         <div class="stat-item-box-icon-box">
+                            <i class="fa-solid fa-face-smile"></i>                    </div>
+                    <div class="stat-item-box-number"> +<span class="counter">90</span>%</div>
+                    <div class="stat-item-box-title">Clients satisfaits</div>
+                    </div>
+                <div class="col-lg-3 col-md-3 stat-item-container">
+                         <div class="stat-item-box-icon-box">
+                            <i class="fa-solid fa-handshake"></i>
+
+                    </div>
+                    <div class="stat-item-box-number">+<span class="counter">50</span></div>
+                    <div class="stat-item-box-title">Partenaires dans le monde</div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="temoignage" class="reveal" style="padding: 20px;">
+        <h1 class="tittle-level-one" style="margin-top:3rem ; margin-bottom:2rem">Temoignage</h1>
+        <div class="container">
+            <div class="row">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="testimonial-item-img">
+                            <img src="./images/temoins/person1.jpg" alt="">
+                        </div>
+                        <div class="testimonial-item-nom">
+                            <p>ROGER LAPORTE</p>
+                        </div>
+                        <div class="testimonial-item-text">
+                            <p><i class="fa-solid fa-quote-left quote"></i>Salut a tous je suis Roger 33 ans Marseille , je suis tres satisfait de ces gens honnetement ils m'ont permis a ma famille et moi de vivre pendant cette pendemie comme avant sans nous faire vacciner <i class="fa-solid fa-quote-right quote"></i></p>
+                        </div>
+                    </div>
+                    <!-- ---------------------------------------------------------------------------- -->
+                    <div class="item">
+                        <div class="testimonial-item-img">
+                            <img src="./images/temoins/person2.jpg" alt="">
+                        </div>
+                        <div class="testimonial-item-nom">
+                            <p>NINA ROLLS</p>
+                        </div>
+                        <div class="testimonial-item-text">
+                            <p><i class="fa-solid fa-quote-left quote"></i>Hello , I'm Nina just WOwww , <br>try you tell me!! <i class="fa-solid fa-quote-right quote"></i></p>
+                        </div>
+                    </div>
+                    <!-- ---------------------------------------------------------------------------- -->
+                    <div class="item">
+                        <div class="testimonial-item-img">
+                            <img src="./images/temoins/person3.jpg" alt="">
+                        </div>
+                        <div class="testimonial-item-nom">
+                            <p>GIOVANNI MIDALI</p>
+                        </div>
+                        <div class="testimonial-item-text">
+                            <p><i class="fa-solid fa-quote-left quote"></i>Ciao sono Giovanni, vengo dall'italia sono molto felice di aver ricevuto il mio gp, all'inizio non ci credevo ma qui oggi voglio dare un testimonial, è divertente <i class="fa-solid fa-quote-right quote"></i></p>
+                        </div>
+                    </div>
+                    <!-- ---------------------------------------------------------------------------- -->
+                    <div class="item">
+                        <div class="testimonial-item-img">
+                            <img src="./images/temoins/person4.jpg" alt="">
+                        </div>
+                        <div class="testimonial-item-nom">
+                            <p>MIKE OMAN</p>
+                        </div>
+                        <div class="testimonial-item-text">
+                            <p><i class="fa-solid fa-quote-left quote"></i>Bonsoir a vous , je me porte bien aujourd'hui grace a se groupe de Medecins, je suis tres malade et je ne pouvais pas risquer mourrir a cause de ce vaccin.je les ai fait confiance tout simplement. <i class="fa-solid fa-quote-right quote"></i></p>
+                        </div>
+                    </div>
+                    <!-- ---------------------------------------------------------------------------- -->
+                    <div class="item">
+                        <div class="testimonial-item-img">
+                            <img src="./images/temoins/person5.jpg" alt="">
+                        </div>
+                        <div class="testimonial-item-nom">
+                            <p>RODRIGUE MERCIER</p>
+                        </div>
+                        <div class="testimonial-item-text">
+                            <p><i class="fa-solid fa-quote-left quote"></i>Bonjour , aujourd'hui je continue de faire mes pass sanitaires tranquille , j'en merde ce gouvernement de nous faire subir ses conneries <i class="fa-solid fa-quote-right quote"></i></p>
+                        </div>
+                    </div>
+                    <!-- ---------------------------------------------------------------------------- -->
+                    <div class="item">
+                        <div class="testimonial-item-img">
+                            <img src="./images/temoins/person6.jpg" alt="">
+                        </div>
+                        <div class="testimonial-item-nom">
+                            <p>CHARLOTTE BOULANGER</p>
+                        </div>
+                        <div class="testimonial-item-text">
+                            <p><i class="fa-solid fa-quote-left quote"></i>C'est tout simplement incroyable ,j'ai pleure lorsque j'ai recu mon pass vaccinal <i class="fa-solid fa-quote-right quote"></i></p>
+                        </div>
+                    </div>
+                    <!-- ---------------------------------------------------------------------------- -->
+                   
+                   
+                   
+                    <!-- <div class="item"><h4>2</h4></div>
+                    <div class="item"><h4>3</h4></div>
+                    <div class="item"><h4>4</h4></div>
+                    <div class="item"><h4>5</h4></div>
+                    <div class="item"><h4>6</h4></div>
+                    <div class="item"><h4>7</h4></div> -->
+                    <!-- <div class="item"><h4>8</h4></div> -->
+                    <!-- <div class="item"><h4>9</h4></div>
+                    <div class="item"><h4>10</h4></div>
+                    <div class="item"><h4>11</h4></div>
+                    <div class="item"><h4>12</h4></div> -->
+                </div>
+            </div>
+        </div>
+
+        
+        
+    </section>
+
+    <section id="faq" class="reveal">
+        <div class="container">
+            <div class="row">
+                <div  class="col-md-2"></div>
+                <div  class="col-md-8">
+                    <h1 class="tittle-level-one" style="margin-top: 1rem;margin-bottom:1rem;">F.A.Q</h1>
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                <i class="fa-solid fa-circle-question faq-icon"></i>  Vos pass sanitaires que vous fournissez sont enregistre dans l'espace ARMELI? 
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                                <strong class="reponse">Reponse : </strong> <strong>OUI BIENSUR</strong> Nous vous donnons la possiblite de verifier , et pour des clients tres sceptiques , nous pouvons vous mettre en contact avec nos <strong>clients les plus fideles</strong>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                <i class="fa-solid fa-circle-question faq-icon"></i>  Faites vous des reductions si nous voulons commander plusieurs pass ?
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                                <strong class="reponse">Reponse : </strong>  <strong >OUI</strong> Nous le faisons meme actuellement , l'objectifs est de proteger le plus de monde possible de ce maudit vaccin
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                <i class="fa-solid fa-circle-question faq-icon"></i> Comment faites vous pour etre dans toutes l'Europe?
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                              <strong class="reponse">Reponse : </strong> Nous avons des partenaires qui partagent la meme vision que nous , qui est celle de proteger les polulations de ce vaccin. Car  nous savons ce que ce vaccin pourra etre capable de faire d'ici 10 ans a tous ceux qui vont le prendre
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                <i class="fa-solid fa-circle-question faq-icon"></i> Avez vous une question ?
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                              <strong class="reponse">Si Oui : </strong> Alors Posez la directement <button class=" btn-ensemble btn-whatsapp"><a href="http://Wa.me/+33751039353" target="_blank" style="text-decoration: none; color:white;" >Chez Nous</a> </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div  class="col-md-2"></div>
+            </div>
+        </div>
+    </section>
+    <!-- -------------------------------------------SECTION CONTACTEZ NOUS START ------------------------------------------- -->
+    <div id="contact" class="reveal">
+        <h1 class="tittle-level-one" style="margin-top:3rem ; margin-bottom:2rem">Nous Contacter</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-3 contact-box-item">
+                    <div class="contact-box-item-icon">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <div>
+                        <h3>Nos Reseaux </h3>
+                        <p> Telegram : @document_financier</p>
+                        <p> whatsapp : +33751039353</p>
+                        <p> Signal : +33 7 58 72 25 06 </p>
+
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+
+                <div class="col-md-3 contact-box-item">
+                    <div class="contact-box-item-icon">
+                        <i class="fa-solid fa-envelope"></i>                    </div>
+                    <div>
+                        <h3>Notre Email </h3>
+                        <p> serviceactif93@gmail.com</p>
+
+                        
+
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+
+                <div class="col-md-3 contact-box-item">
+                    <div class="contact-box-item-icon">
+                        <!-- <i class="fa-solid fa-phone-arrow-up-right"></i> -->
+                        <i class="fa-solid fa-phone-volume"></i>
+                                          </div>
+                    <div>
+                        <h3>Notre telephone </h3>
+                        <p> +33 7 51 03 93 53 </p>
+
+                        
+
+                    </div>
+                </div>
+                <div class="col-md-3"></div>
+                <div class="col-md-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <form  id="formulaire">
+                        <div class="container">
+                        <div class="row">
+                            <div class="col-md-6"><input type="text" value="" name="" class="input-contact-form" id="name-form" placeholder="Votre Nom"></div>
+                            <div class="col-md-6"><input type="text" value=""   class="input-contact-form" id="email-form" placeholder="Votre Email"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="text" value=""  class="input-contact-form" id="subject-form" placeholder="Votre Sujet">
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <textarea  class="textarea-contact-form" value="" id="messageForm" placeholder="Votre message"></textarea>
+
+                            </div>
+                        </div>
+                        <div class="btn-send-box">
+                            <button  id="btnsendform">Envoyez</button>
+                        </div>
+                    </div>
+                    </form>
+                    
+                </div>
+                <div class="col-md-2"></div>
+                <form></form>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------------------------SECTION CONTACTEZ NOUS END ------------------------------------------- -->
+    <div id="button-fixe-container" data-toggle="tooltip" title="Envoyez Nous Un Message">
+        <a href="http://Wa.me/+33751039353" style="color: white; text-decoration:none;"><i class="fa-brands fa-whatsapp"></i></a>
+        
+
+    </div>
+
+    </section>
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 footer-box-item">
+                    <div class="footer-title-box">
+                        <h2>PARIS FRANCE </h2>
+                    </div>
+                    <div class="footer-texte-box">
+                        <p>Telephone : +33 75 10 39 353</p>
+                        <!-- <div style="margin-right:2px; color: black;" data-toggle="tooltip" data-placement="bottom" title="Envoyez Nous un mail">  -->
+
+                        <p><a href="mailto:serviceactif93@gmail.com" style="color: #1977cc;text-decoration:none; cursor: pointer;" data-toggle="tooltip" data-placement="bottom" title="Envoyez Nous un mail">Email : serviceactif93@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 footer-box-item">
+                    <div class="footer-title-box">
+                        <h2>Liens Utiles </h2>
+                    </div>
+                    <div class="footer-texte-box ">
+                        <ul>
+                            <li><a href="#home" class="footer-texte-box-link"> <i class="fa-solid fa-chevron-right"></i> Home </a></li>
+                            <li><a href="#services" class="footer-texte-box-link"> <i class="fa-solid fa-chevron-right"></i> services </a></li>
+                            <li><a href="#contact" class="footer-texte-box-link"> <i class="fa-solid fa-chevron-right"></i> contact </a></li>
+                            <li><a href="#gallery" class="footer-texte-box-link"> <i class="fa-solid fa-chevron-right"></i> Gallerie </a></li>
+                            <li><a href="#faq" class="footer-texte-box-link"> <i class="fa-solid fa-chevron-right"></i> Faq </a></li>
+                            <li><a href="#paiement" class="footer-texte-box-link"> <i class="fa-solid fa-chevron-right"></i> mode paiement </a></li>
+                            <li><a href="#about" class="footer-texte-box-link"> <i class="fa-solid fa-chevron-right"></i> a propos  </a></li>
+                            <li><a href="#temoignage" class="footer-texte-box-link"> <i class="fa-solid fa-chevron-right"></i> Temoignage </a></li>
+                        </ul>
+                       
+                        
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-box-item">
+                    <div class="footer-title-box">
+                        <h2>Nos Services </h2>
+                    </div>
+                    <div class="footer-texte-box">
+                        <ul>
+                            <li><i class="fa-solid fa-chevron-right"></i> Pass Sanitaire </li>
+                            <li><i class="fa-solid fa-chevron-right"></i> Passeport et CNI</li>
+                            <li><i class="fa-solid fa-chevron-right"></i> Permis de Conduire</li>
+                            <li><i class="fa-solid fa-chevron-right"></i> Titre de Sejour</li>
+                            <li><i class="fa-solid fa-chevron-right"></i> Carte Vtc</li>
+                            <li><i class="fa-solid fa-chevron-right"></i> Tests PCR</li>
+                            <li><i class="fa-solid fa-chevron-right"></i> Certificat de vaccination</li>
+                            <li><i class="fa-solid fa-chevron-right"></i> Att de maitrise du code de la route</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 footer-box-item">
+                    <div class="footer-title-box">
+                        <h2>Rejoinez Notre Newsletter </h2>
+                    </div>
+                    <div class="footer-texte-box">
+                        <p> <i class="bx bx-chevron-right"></i>Rejoignez notre Newsletter et suivez toutes notre actualite</p>
+                        <div class="box-btn-newletter">
+                            <input id="btn-newletter" ></input> 
+                            <a href="https://t.me/documentetaffairefinancieren" target="_blank"><button>Souscrire</button></a>
+                        
+                        </div>
+                        
+                    </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+          
+          
+        </div>
+        <section id="footer-bottom-container">
+            <div class="container">
+                <div class="row">
+              <div class="col-lg-4" style="text-align: center;">
+                  © Copyright Green Pass. Tout les droits Reserve
+              </div>
+              <div class="col-lg-7"></div>
+              <div class="col-lg-1 footer-bottom-icon-container">
+                  <a href="#!">
+                      <div class="footer-bottom-icon-box">
+                      <i class="fa-brands fa-facebook-f"></i>
+                  </div>
+                  </a>
+                  <!-- ------------------------------------- -->
+                  <a href="https://t.me/documentetaffairefinancieren">
+                      <div class="footer-bottom-icon-box">
+                        <i class="fa-solid fa-paper-plane"></i>                 </div>
+                  </a>
+                  <!-- ------------------------------------- -->
+                  <a href="http://Wa.me/+33751039353">
+                      <div class="footer-bottom-icon-box">
+                        <i class="fa-brands fa-whatsapp"></i>
+                  </div>
+                  </a>
+                  
+                  <!-- ------------------------------------- -->
+                  <a href="#!">
+                      <div class="footer-bottom-icon-box">
+                        <i class="fa-brands fa-instagram"></i>
+                  </div>
+                  </a>
+                  <!-- ------------------------------------- -->
+                  
+              </div>
+          </div>
+          </div>
+
+        </section>
+
+    </footer>
+    <!-- https://bootstrapmade.com/demo/Arsha/ -->
+    
+    <!-- ----------------------------------------------------Script own Carousel start ------------------------------ -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js"> </script>
+    <script>
+        var btnSendFrom = document.getElementById('btnsendform');
+        var nameUser = document.getElementById('name-form').innerHTML
+        var nameEmail = document.getElementById('email-form').innerHTML
+        var nameSujet = document.getElementById('subject-form').innerHTML
+        var nameMessage = document.getElementById('messageForm').innerHTML
+        btnSendFrom.addEventListener('click',formEvent)
+        function formEvent(e){
+            console.log(`la valeur du nom est ${nameUser} la valeur de email est ${nameEmail} , la valeur de sujet est ${nameSujet} , et la valeur de message ${nameMessage}`);
+            e.preventDefault()
+            // if(nameUser=='' || nameEmail=='' || nameSujet=='' || nameMessage==''){
+            //     alert('je suis beau')
+            //     console.log(`la valeur du nom est ${nameUser} la valeur de email est ${nameEmail} , la valeur de sujet est ${nameSujet} , et la valeur de message ${nameMessage}`);
+
+            // }else{
+            //     console.log(`la valeur du nom est ${nameUser} la valeur de email est ${nameEmail} , la valeur de sujet est ${nameSujet} , et la valeur de message ${nameMessage}`);
+            //     alert('je suis laid')
+
+            //              e.preventDefault()
+
+            // }
+        }
+        $(document).ready(function(){
+            $(".counter").counterUp({
+                delay:10,
+                time:1200
+            });
+        })
+
+
+        $('.owl-carousel').owlCarousel({
+    autoplay:true,
+    loop:true,
+    margin:10,
+    autoplayHoverPause:true,
+    autoplayTimeout:3000,
+    nav:false,
+    dots:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+    </script>
+    <!-- ----------------------------------------------------Script own Carousel End ------------------------------ -->
+ 
+</body>
+</html>
